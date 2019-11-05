@@ -33,7 +33,7 @@ class SignUp extends React.Component {
                 confirmPassword: ''
             });
         } catch (error) {
-            console.log('Error creating user.', error.message);
+            alert(`Sign up error. ${error.message}`);
         }
     };
 
